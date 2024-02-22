@@ -15,7 +15,7 @@ This repository contains a command-line tool written in Go for automating Contin
 To install the CI/CD tool, simply clone this repository and build the executable using the following commands:
 
 ```bash
-git clone https://github.com/your-username/ci-cd-tool.git
+git clone https://github.com/amy324/CI-CD-Pipeline-Automation-Tool
 cd ci-cd-tool
 go build
 ```
