@@ -50,11 +50,11 @@ var configureCmd = &cobra.Command{
 		// Prompt user for input
 		var repositoryURL, branchName, testScript string
 		fmt.Print("Enter repository URL: ")
-		fmt.Scanln(&repositoryURL)
+		fmt.Scan(&repositoryURL) // Scan for repository URL
 		fmt.Print("Enter branch name: ")
-		fmt.Scanln(&branchName)
+		fmt.Scan(&branchName) // Scan for branch name
 		fmt.Print("Enter test script command: ")
-		fmt.Scanln(&testScript)
+		fmt.Scan(&testScript) // Scan for test script command
 
 		// Store configuration settings in a struct
 		config := PipelineConfig{
@@ -80,6 +80,8 @@ var configureCmd = &cobra.Command{
 		fmt.Println("Pipeline configuration saved to pipeline_config.yaml")
 	},
 }
+
+
 
 var runCmd = &cobra.Command{
 	Use:   "run",

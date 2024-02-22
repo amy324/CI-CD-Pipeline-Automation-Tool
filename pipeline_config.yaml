@@ -1,0 +1,3 @@
+repository_url: https://github.com/amy324/CI-CD-Demo-Project
+branch_name: main
+test_script: go test
