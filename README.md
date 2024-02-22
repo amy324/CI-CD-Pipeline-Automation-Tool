@@ -1,6 +1,6 @@
 
 
-# CI/CD Tool for Go Projects
+# CI/CD Pipeline Automation Tool for Go Projects
 
 This repository contains a command-line tool written in Go for automating Continuous Integration and Continuous Deployment (CI/CD) pipelines for Go projects. The tool utilizes the [cobra](https://github.com/spf13/cobra) library for building CLI applications.
 
@@ -15,7 +15,7 @@ This repository contains a command-line tool written in Go for automating Contin
 To install the CI/CD tool, simply clone this repository and build the executable using the following commands:
 
 ```bash
-git clone https://github.com/amy324/CI-CD-Pipeline-Automation-Tool
+git clone https://github.com/your-username/ci-cd-tool.git
 cd ci-cd-tool
 go build
 ```
@@ -32,7 +32,7 @@ To configure the CI/CD pipeline settings, use the `configure` command:
 
 You will be prompted to enter the repository URL, branch name, and test script command.
 
-Here is an example showing using the `configure` command with a demo project I created to use with this tool:
+Here is an example showing using the `configure` command with a simple and easy-to-understand [test project](https://github.com/amy324/CI-CD-Demo-Project) created to demonstrate the useage of this CI/CD Tool:
 
 ```bash
 $ ./ci-cd-tool configure
@@ -77,6 +77,12 @@ The pipeline configuration settings are saved in the `pipeline_config.yaml` file
 
 - [Go](https://golang.org/): The programming language used to build the CI/CD tool.
 - [cobra](https://github.com/spf13/cobra): A CLI library for Go that powers the command-line interface of the tool.
+- [go-git](github.com/go-git/go-git): A Git implementation for Go used for fetching source code from repositories.
+
+
+Demo Project
+
+This tool was designed to work seamlessly with the CI/CD Demo Project, a simple and easy-to-understand test project created to showcase the capabilities of the CI/CD Tool.
 
 ## Contributing
 
