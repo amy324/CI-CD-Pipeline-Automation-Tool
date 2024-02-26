@@ -69,6 +69,10 @@ ok      cicd-demo       0.269s
 CI/CD pipeline completed successfully
 ```
 
+### Demo Project
+
+The examples above are using the [CI/CD Demo Project](https://github.com/amy324/CI-CD-Demo-Project), a simple and easy-to-understand test program created to demonstrate the capabilities of the CI/CD Pipeline Automation Tool.
+
 ## Configuration File
 
 The pipeline configuration settings are saved in the `pipeline_config.yaml` file in YAML format. You can manually edit this file if needed.
@@ -79,10 +83,6 @@ The pipeline configuration settings are saved in the `pipeline_config.yaml` file
 - [cobra](https://github.com/spf13/cobra): A CLI library for Go that powers the command-line interface of the tool.
 - [go-git](github.com/go-git/go-git): A Git implementation for Go used for fetching source code from repositories.
 
-
-### Demo Project
-
-I  created the [CI/CD Demo Project](https://github.com/amy324/CI-CD-Demo-Project), a simple and easy-to-understand test program created to demonstrate the capabilities of the CI/CD  Pipeline Automation Tool.
 
 ## Contributing
 
