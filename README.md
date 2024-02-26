@@ -15,7 +15,7 @@ This repository contains a command-line tool written in Go for automating Contin
 To install the CI/CD tool, simply clone this repository and build the executable using the following commands:
 
 ```bash
-git clone https://github.com/your-username/ci-cd-tool.git
+git clone https://github.com/amy324/CI-CD-Pipeline-Automation-Tool
 cd ci-cd-tool
 go build
 ```
@@ -80,9 +80,9 @@ The pipeline configuration settings are saved in the `pipeline_config.yaml` file
 - [go-git](github.com/go-git/go-git): A Git implementation for Go used for fetching source code from repositories.
 
 
-Demo Project
+### Demo Project
 
-This tool was designed to work seamlessly with the CI/CD Demo Project, a simple and easy-to-understand test project created to showcase the capabilities of the CI/CD Tool.
+I  created the [CI/CD Demo Project](https://github.com/amy324/CI-CD-Demo-Project), a simple and easy-to-understand test program created to demonstrate the capabilities of the CI/CD  Pipeline Automation Tool.
 
 ## Contributing
 
